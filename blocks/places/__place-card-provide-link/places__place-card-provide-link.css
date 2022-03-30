@@ -1,0 +1,14 @@
+.places__place-card-provide-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.places__place-card-provide-link:hover {
+  transition: .2s ease-out;
+  opacity: 0.6;
+}

@@ -1,0 +1,9 @@
+.places__place-card-title {
+  max-width: 460px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc(32px + 40 * (100vw / 1280));
+  line-height: calc(35px + 41 * (100vw / 1280));
+  padding-bottom: 48px;
+  margin: 0;
+}

@@ -1,0 +1,8 @@
+.places__place-card-description-text {
+  margin: 0;
+  padding: 0;
+}
+
+.places__place-card-description-text:nth-child(2) {
+    padding-top: 26px;
+}

@@ -1,0 +1,11 @@
+.places__place-card {
+  max-width: 984px;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0 0 60px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-rows: auto;
+  grid-column-gap: 40px;
+  color: #ffff;
+}

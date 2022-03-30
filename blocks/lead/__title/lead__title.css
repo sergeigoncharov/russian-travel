@@ -1,0 +1,11 @@
+.lead__title {
+  max-width: 720px;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-style: normal;
+  font-size: calc(40px + 56 * (100vw / 1280));
+  line-height: calc(44px + 56 * (100vw / 1280));
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0 auto;
+  padding: 0 16px 32px 16px;
+}
