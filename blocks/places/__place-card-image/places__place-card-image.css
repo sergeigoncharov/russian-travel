@@ -2,11 +2,11 @@
   grid-row-start: 2;
   grid-row-end: 5;
   max-width: 460px;
-  align-self: flex-start;
+  align-self: start;
 }
 
 .places__place-card-image {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }

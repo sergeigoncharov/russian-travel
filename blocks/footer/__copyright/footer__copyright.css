@@ -1,7 +1,16 @@
 .footer__copyright {
-  text-align: end;
   font-size: 14px;
   line-height: 16px;
   margin: 0;
   color: #FFFFFF;
+  align-self: end;
+  justify-self: end;
+}
+
+@media screen and (max-width: 520px) {
+  .footer__copyright {
+    align-self: start;
+    justify-self: start;
+    padding-top: 48px;
+  }
 }

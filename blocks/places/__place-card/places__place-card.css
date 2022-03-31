@@ -5,7 +5,15 @@
   padding: 0 0 60px 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-template-rows: auto;
   grid-column-gap: 40px;
   color: #ffff;
+}
+
+@media screen and (max-width: 500px) {
+  .places__place-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 320px);
+    justify-items: center;
+    align-items: center;
+  }
 }
