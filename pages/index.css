@@ -31,8 +31,6 @@
 @import url(../blocks/places/__place-card-provide-heading/places__place-card-provide-heading.css);
 @import url(../blocks/places/__place-card-provide-url/places__place-card-provide-url.css);
 @import url(../blocks/places/__place-card-provide-link/places__place-card-provide-link.css);
-
-
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__card/cover__card.css);
 @import url(../blocks/cover/__image/cover__image.css);
@@ -40,14 +38,8 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__link/cover__link.css);
-
-
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__menu-item/footer__menu-item.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
-
-
-@import url(../blocks/locations_travel_another_grid_work/locations.css);
