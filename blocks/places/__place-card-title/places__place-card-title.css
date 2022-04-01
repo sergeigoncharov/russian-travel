@@ -7,3 +7,10 @@
   padding-bottom: 48px;
   margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .places__place-card-title {
+    padding: 0 16px 32px 16px;
+  }
+}
+

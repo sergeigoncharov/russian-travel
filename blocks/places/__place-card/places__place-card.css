@@ -4,16 +4,15 @@
   margin: 0 auto;
   padding: 0 0 60px 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, max-content));
   grid-column-gap: 40px;
   color: #ffff;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
   .places__place-card {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 320px);
-    justify-items: center;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
 }
