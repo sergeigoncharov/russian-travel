@@ -1,0 +1,17 @@
+.page {
+  background-color: inherit;
+  max-width: 1280px;
+  margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    padding: 0 16px 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    padding: 0;
+  }
+}

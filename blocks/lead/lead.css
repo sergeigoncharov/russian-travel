@@ -1,4 +1,18 @@
 .lead {
   text-align: center;
   margin: 0 auto 0 auto;
+  max-width: 984px;
+  padding: 0;
+}
+
+@media all and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+  }
 }
