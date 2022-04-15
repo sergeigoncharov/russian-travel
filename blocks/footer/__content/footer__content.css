@@ -1,12 +1,11 @@
 .footer__content {
-  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .footer__content {
     display: flex;
     flex-direction: column;

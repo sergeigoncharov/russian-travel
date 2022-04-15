@@ -1,7 +1,30 @@
 .cover__link-background {
-  width: 100%;
-  height: 100%;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover;
+  background-color: rgba(42, 44, 47, .3);
+  display: block;
+  padding: 245px 0;
+  color: #ffffff;
   text-decoration: none;
+  transition: background-color .2s;
+}
+
+.cover__link-background:hover {
+  background-color: rgba(42, 44, 47, .8);
+}
+
+@media screen and (max-width: 1280px){
+  .cover__link-background {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .cover__link-background {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .cover__link-background {
+    padding: 33px 0;
+  }
 }

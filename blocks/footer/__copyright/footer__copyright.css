@@ -8,16 +8,11 @@
   justify-self: end;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 768px) {
   .footer__copyright {
     align-self: start;
     justify-self: start;
     padding-top: 48px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer__copyright {
     line-height: 14px;
   }
 }
