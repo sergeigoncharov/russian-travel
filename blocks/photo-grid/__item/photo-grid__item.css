@@ -2,20 +2,21 @@
   max-width: 284px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1280px) {
   .photo-grid__item {
     max-width: 300px;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   .photo-grid__item {
     max-width: 352px;
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 768px) {
   .photo-grid__item {
-    max-width: 288px;
+    width: 288px;
+    max-width: 100%;
   }
 }
