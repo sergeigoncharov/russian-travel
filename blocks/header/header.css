@@ -1,6 +1,8 @@
 .header {
   padding: 28px 48px 56px 48px;
   margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 @media all and (max-width: 768px) {

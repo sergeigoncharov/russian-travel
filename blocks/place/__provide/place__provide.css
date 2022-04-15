@@ -1,4 +1,4 @@
-.places__place-card-provide {
+.place__provide {
   grid-column: 2;
   grid-row: 1;
   align-self: end;
@@ -6,19 +6,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  .places__place-card-provide {
+  .place__provide {
     padding-bottom: 48px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places__place-card-provide {
+  .place__provide {
     align-self: start;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .places__place-card-provide {
+  .place__provide {
     padding: 0 16px 32px 16px;
   }
 }

@@ -10,6 +10,13 @@
   padding: 0;
   align-self: center;
   justify-self: center;
+  opacity: 1;
+}
+
+.header__lang-link:hover {
+  transition: .2s ease-out;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 .header__lang-link:nth-child(1) {
