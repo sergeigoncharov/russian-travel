@@ -4,6 +4,7 @@
   grid-row: 1;
   align-self: end;
   margin: 0;
+  padding-bottom: 48px;
 }
 
 @media screen and (max-width: 1023px) {
