@@ -8,7 +8,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place__title {
     max-width: 330px;
     font-size: 42px;
@@ -17,10 +17,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place__title {
     margin: 0 auto;
-    max-width: 484px;
+    max-width: 440px;
     padding: 0 16px 32px 16px;
     font-size: 32px;
     line-height: 35px;

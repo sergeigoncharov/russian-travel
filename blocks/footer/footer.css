@@ -4,14 +4,14 @@
   padding: 92px 48px 24px 48px;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1023px) {
   .footer {
     padding: 88px 24px 24px 24px;
     max-width: 720px;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .footer {
     padding: 64px 12px 24px 12px;
   }

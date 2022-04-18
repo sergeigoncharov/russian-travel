@@ -4,7 +4,7 @@
   display: flex;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__menu {
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);

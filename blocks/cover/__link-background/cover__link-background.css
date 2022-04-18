@@ -1,7 +1,7 @@
 .cover__link-background {
   background-color: rgba(42, 44, 47, .3);
   display: block;
-  padding: 245px 0;
+  padding: 245px 0 245px 0;
   color: #ffffff;
   text-decoration: none;
   transition: background-color .2s;
@@ -11,20 +11,20 @@
   background-color: rgba(42, 44, 47, .8);
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1279px){
   .cover__link-background {
-    padding: 195px 0;
+    padding: 195px 0 195px 0;
   }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1023px){
   .cover__link-background {
-    padding: 115px 0;
+    padding: 115px 0 115px 0;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
   .cover__link-background {
-    padding: 33px 0;
+    padding: 33px 0 33px 0;
   }
 }
