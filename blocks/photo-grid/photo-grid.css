@@ -1,21 +1,20 @@
 .photo-grid {
-  max-width: 1184px;
   margin: 0 auto 0 auto;
 }
 
-@media all and (max-width: 1279px) {
+@media all and (max-width: 1280px) {
   .photo-grid {
     padding: 0 48px 0 48px;
   }
 }
 
-@media all and (max-width: 1023px) {
+@media all and (max-width: 1024px) {
   .photo-grid {
     padding: 0 24px 0 24px;
   }
 }
 
-@media all and (max-width: 797px) {
+@media all and (max-width: 768px) {
   .photo-grid {
     padding: 0 16px 0 16px;
   }
